@@ -18,7 +18,7 @@ soma_bc = lado_b + lado_c
 
 somas = [soma_ab, soma_ac, soma_bc]
 
-def validarTriangulo (somas_lado, lado1, lado2, lado3):
+def validarTriangulo (somas_lados, lado1, lado2, lado3):
     for somas_lados in somas:
         if somas_lados > lado1 or somas_lados > lado2 or somas_lados > lado3:
         # ("Triângulo Validado!")
