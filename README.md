@@ -8,7 +8,7 @@ Exercícios realizados durante treinamento de lógica de programação em Python
 
 ### Pastas do Repositório
 * Estrutura Sequencial ✅
-* Estrutura de Decisão ⌛
+* Estrutura de Decisão ✅
 * Estrutura de Repetição ⌛
 * Exercícios Listas ⌛
 * Exercícios Funções ⌛
