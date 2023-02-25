@@ -4,6 +4,6 @@
 import math
 
 r = float(input("Digite o raio do círculo: "))
-area = (r**2) * math.pi
+area = math.pow(r, 2) * math.pi
 
 print("A área do círculo é: ", area)
