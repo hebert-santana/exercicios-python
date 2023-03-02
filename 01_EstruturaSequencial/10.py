@@ -6,4 +6,6 @@ def converte_temp (temp):
     f_temp = (9*temp + 160)/5
     return f_temp
 
-print(c_temp, " C° = ", converte_temp(c_temp), " F°")
+fahrenheit_temperatura = converte_temp(c_temp)
+
+print(f'{c_temp} C° = {fahrenheit_temperatura} F°')

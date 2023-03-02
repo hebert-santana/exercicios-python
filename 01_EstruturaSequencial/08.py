@@ -5,4 +5,4 @@ horas_mes = float(input("Quantas horas você trabalha por mês? "))
 
 salario_total = salario_hora * horas_mes
 
-print("Seu salário total nesse mês é: R$ ", salario_total)
+print(f"Seu salário total nesse mês é: R$ {salario_total}")

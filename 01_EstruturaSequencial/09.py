@@ -7,4 +7,6 @@ def converte_temp (temp):
     c_temp =  5 * ((temp - 32)/ 9)
     return c_temp
 
-print(f_temp, " F° = ", converte_temp(f_temp), " C°" )
+celsius_temperatura = converte_temp(f_temp)
+
+print(f'{f_temp} F° = {celsius_temperatura} C°')

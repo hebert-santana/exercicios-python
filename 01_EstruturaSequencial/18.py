@@ -6,4 +6,4 @@ velocidade = float(input("Qual a velocidade (Mbps)? "))
 tempo_seg = tamanho / velocidade
 tempo_minutos = round(tempo_seg / 60, 2)
 
-print("Tempo aproximado de download: ", tempo_minutos, " minutos.")
+print(f"Tempo aproximado de download: {tempo_minutos} minutos.")

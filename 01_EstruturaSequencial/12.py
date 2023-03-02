@@ -4,4 +4,4 @@ h = float(input("Digite sua altura (m): "))
 
 peso_ideal = round((72.7 * h) - 58, 2)
 
-print("Seu peso ideal é: ", peso_ideal, " Kg.")
+print(f"Seu peso ideal é: {peso_ideal} Kg.")

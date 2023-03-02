@@ -11,6 +11,6 @@ multa_kg = 4
 if peso > limite:
     excesso = round(peso - limite, 2)
     multa = round(multa_kg * excesso, 2)
-    print("O peso excedeu em ", excesso, "Kg. Você deve pagar uma multa de R$", multa)
+    print(f"O peso excedeu em {excesso} Kg. Você deve pagar uma multa de R$ {multa}.")
 else:
     print("O peso não excedeu o limite.")

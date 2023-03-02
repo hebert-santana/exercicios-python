@@ -3,7 +3,11 @@
 # importando o módulo math para acessar função pi
 import math
 
+# solicitando o raio
 r = float(input("Digite o raio do círculo: "))
+
+# calculando a área do círculo
 area = math.pow(r, 2) * math.pi
 
-print("A área do círculo é: ", area)
+# imprimindo o resultado
+print(f'A área do círculo é: {area}.')
