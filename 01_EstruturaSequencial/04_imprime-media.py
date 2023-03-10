@@ -11,5 +11,5 @@ total = nota1 + nota2 + nota3 + nota4
 media = total / 4
 
 # imprimindo o resultado
-print("A média dos bimestres foi: ", media, "pontos.")
+print(f'A média dos bimestres foi: {media} pontos.')
 

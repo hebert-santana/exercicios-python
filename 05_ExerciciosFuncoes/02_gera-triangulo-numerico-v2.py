@@ -5,7 +5,7 @@
 #     .....
 #     1   2   3   ...  n
 # para um n informado pelo usuário. Use uma função que receba um valor n inteiro imprima até a n-ésima linha.
-print('========== Gerador de Triângulo Numérico V2 ==========')
+print('\033[1;31;43m========== Gerador de Triângulo Numérico V2 ==========\033[m')
 numero_n = int(input("Quantas linhas? "))
 
 def geraTriangulo(numero_linhas):
@@ -31,4 +31,4 @@ def geraTriangulo(numero_linhas):
 
 # executando a função      
 geraTriangulo(numero_n)
-print('========== ================================ ==========') 
+print('\033[1;31;43m========== ================================ ==========\033[m') 

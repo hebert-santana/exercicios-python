@@ -2,6 +2,7 @@
 
 h = float(input("Digite sua altura (m): "))
 
+# cálculo arredondado para duas casas decimais
 peso_ideal = round((72.7 * h) - 58, 2)
 
 print(f"Seu peso ideal é: {peso_ideal} Kg.")

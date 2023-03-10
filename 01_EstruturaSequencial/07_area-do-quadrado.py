@@ -4,8 +4,9 @@
 lado_quadrado = float(input("Digite o tamanho do lado do quadrado: "))
 
 # calculando a área e o dobro da área
-area = lado_quadrado**2
+area = lado_quadrado ** 2
 area_dobro = area * 2
 
 # imprimindo o resultado
-print(f"O dobro da área do quadrado é: {area_dobro}")
+print(f'A área do quadrado é: {area}.')
+print(f"O dobro da área do quadrado é: {area_dobro}.")
