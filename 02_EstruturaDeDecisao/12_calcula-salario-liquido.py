@@ -15,39 +15,38 @@
 # 
 # Imprima na tela as informações, dispostas conforme o exemplo. 
 # No exemplo o valor da hora é 5 e a quantidade de hora é 220.
+print(f"\033[33m========================== CALCULA SALÁRIO ==========================\033[0m")
 
+valor_hora = float(input("Valor da hora trabalhada: "))
+horas_mes = float(input("Total de horas trabalhadas no mês: "))
 
-valor_hora = float(input("Digite o valor da sua hora trabalhada: "))
-horas_mes = float(input("Digite número de horas trabalhadas no mês: "))
-
-# Cálculo salário bruto
+# cálculo salário bruto
 salario_b = valor_hora * horas_mes
 
-# Descontos que não variam o porcentual
+# descontos que não variam o porcentual
 inss = salario_b * 0.1
 sindicato = salario_b * 0.03
 fgts = salario_b * 0.11
 
-# Função para aplicar o desconto do IR
+# função para aplicar o desconto do IR
 def descontoIR(salario):
     if salario > 2500:
         ir = salario * 0.2
-        return ir
     elif salario > 1500:
-        ir = salario * 0.1 
-        return ir
+        ir = salario * 0.1
     elif salario > 900:
         ir = salario * 0.05
-        return ir
     elif salario <= 900 and salario > 0:
         ir = 0
-        return ir
     else:
         return print("Valor IR Inválido!")
+    return ir
 
-# Cálculo salário líquido 
+# cálculo salário líquido 
 total_descontos = inss + sindicato + descontoIR(salario_b)
 salario_liquido = salario_b - total_descontos
 
 # Impressão resultado
-print("Salário Bruto: R$", salario_b, "\n (-) IR: R$", descontoIR(salario_b), "\n (-) INSS: R$", inss, "\n (-) Sindicato: R$", sindicato, "\n FGTS: R$", fgts, "\n Total Descontos: R$", total_descontos, "\n Salário Líquido: R$", salario_liquido)
+print(f'Salário Bruto: R${salario_b}\n (-) IR: R${descontoIR(salario_b)}\n (-) INSS: R${inss}\n (-) Sindicato: R${sindicato}\n FGTS: R${fgts}\n Total Descontos: R${total_descontos}\n Salário Líquido: R${salario_liquido}')
+
+print(f"\033[33m========================== =============== ==========================\033[0m")

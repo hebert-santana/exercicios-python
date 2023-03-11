@@ -2,10 +2,13 @@
 # A atribuição de conceitos obedece à tabela abaixo:
 # O algoritmo deve mostrar na tela as notas, a média, o conceito correspondente e a mensagem “APROVADO” se o conceito for A, B ou C ou “REPROVADO” se o conceito for D ou E.
 
-num1 = float(input("Nota1: "))
-num2 = float(input("Nota2: "))
+# Função tabulare para imprimir tabela
+from tabulate import tabulate
 
-media = (num1 + num2) /2
+nota1 = float(input("Nota 1: "))
+nota2 = float(input("Nota 2: "))
+
+media = (nota1 + nota2) /2
 
 def conceito(n):
     if media >= 9:
@@ -32,12 +35,10 @@ def conceito(n):
         return print("Valor Inválido!")
     return conceito_str, conceito, resultado
 
-lista = list(conceito(media))
+conceito_texto, conceito_letra, resultado_aprovado = conceito(media)
 
-# Função tabulare para imprimir tabela
-from tabulate import tabulate
 
-table = [['Média de Aproveitamento', 'Conceito', 'Resultado'], [lista[0], lista[1], lista[2]]]
-print(tabulate(table, headers='firstrow', tablefmt='fancy_grid'))
+tabela = [['Média de Aproveitamento', 'Conceito', 'Resultado'], [conceito_texto, conceito_letra, resultado_aprovado]]
+print(tabulate(tabela, headers='firstrow', tablefmt='fancy_grid'))
 
     

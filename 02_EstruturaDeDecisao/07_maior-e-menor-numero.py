@@ -4,12 +4,12 @@ num1 = float(input("Forneça o primeiro número: "))
 num2 = float(input("Forneça o segundo número: "))
 num3 = float(input("Forneça o terceiro número: "))
 
-# Criar uma lista com os números
+# criar uma lista com os números
 lista_compara = [num1, num2, num3]
 
-# Ordenar a lista
+# ordenar a lista
 lista_compara.sort()
 
-# Pegar o maior e o menor
-print("Maior: ", lista_compara[2])
-print("Menor: ", lista_compara[0])
+# pegar o maior e o menor
+print(f"Maior: {lista_compara[2]}")
+print(f"Menor: {lista_compara[0]}")

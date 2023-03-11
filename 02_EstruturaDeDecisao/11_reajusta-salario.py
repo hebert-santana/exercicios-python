@@ -10,32 +10,39 @@
 # f. o percentual de aumento aplicado;
 # g. o valor do aumento;
 # h. o novo salário, após o aumento.
+print(f"\033[33m========================== CALCULO REAJUSTE ==========================\033[0m")
 
-
-salario_funcionario = float(input("Digite o salário: "))
+salario_funcionario = int(input("Digite o salário: R$ "))
 
 # Função para comprar o valor e aplicar o reajuste
 def reajuste(salario):
     if salario >= 1500:
-        reajustado = salario * 1.05
+        fator = 1.05
+        reajustado = salario * fator
         aumento = reajustado - salario
-        return print("Seu salário era R$", salario, "e foi reajustado em 5% ( R$", aumento, " ). Agora seu salário é R$", reajustado)
     elif salario >= 700:
-        reajustado = salario * 1.1
+        fator = 1.1
+        reajustado = salario * fator
         aumento = reajustado - salario
-        return print("Seu salário era R$", salario, "e foi reajustado em 10% ( R$", aumento, " ). Agora seu salário é R$", reajustado)
     elif salario > 280:
-        reajustado = salario * 1.15
+        fator = 1.15
+        reajustado = salario * fator
         aumento = reajustado - salario
-        return print("Seu salário era R$", salario, "e foi reajustado em 15% ( R$", aumento, " ). Agora seu salário é R$", reajustado)
     elif salario <= 280 and salario > 0:
-        reajustado = salario * 1.2
+        fator = 1.2
+        reajustado = salario * fator
         aumento = reajustado - salario
-        return print("Seu salário era R$", salario, "e foi reajustado em 20% ( R$", aumento, " ). Agora seu salário é R$", reajustado)
     else:
         return print("Valor Inválido!")
+    return fator, reajustado, aumento
     
-reajuste(salario_funcionario)
+fator_correcao, salario_reajustado, aumento_total = reajuste(salario_funcionario)
+fator_correcao = (fator_correcao - 1) * 100
+
+print(f'Seu salário era R$ {round(salario_funcionario)} e foi reajustado em {round(fator_correcao)}% (R$ {round(aumento_total)}).\nSalário Reajustado: R$ {round(salario_reajustado)}')
+
+print(f"\033[33m========================== ================ ==========================\033[0m")
+
     
 
     
