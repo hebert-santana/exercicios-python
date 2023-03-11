@@ -23,8 +23,9 @@ O objetivo deste repositório é documentar minha evolução na linguagem Python
 
 ---
 
-### Autor do Repositório
-Este repositório foi criado e é mantido por Hebert Santana, estudante de programação e entusiasta de Python.
-[<img src="https://avatars.githubusercontent.com/u/102166830?v=4" width=80><br><sub>Hebert Santana</sub>](https://github.com/hebert-santana)
+### Autor
+Criado e mantido por [Hebert Santana](https://www.linkedin.com/in/hebert-santana/).
+
+[<img src="https://avatars.githubusercontent.com/u/102166830?v=4" width=80>](https://www.linkedin.com/in/hebert-santana/)
 
 
