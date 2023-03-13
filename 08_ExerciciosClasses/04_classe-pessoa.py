@@ -13,29 +13,36 @@ class Pessoa:
     
     def envelhecer(self, anos):
         # crescimento
-        if self.idade < 21:
-            self.altura = self.altura + 0.05 * anos
-        # idade   
-        self.idade = self.idade + anos
+        ano = 0            
+        while (21 - self.idade) > 0:
+            self.altura += 0.05
+            ano += 1
+            self.idade += 1
+            if ano == anos:
+                break
         
     def engordar(self, kg):
-        self.peso = self.peso + kg
+        self.peso += kg
     
     def emagrecer(self, kg):
-        self.peso = self.peso - kg
+        if (self.peso - kg) > 0:
+            self.peso -= kg
         
     def crescer(self, cm):
-        self.altura = self.altura + cm
+        self.altura += cm
             
 pessoa1 = Pessoa('Hebert', 20, 82.2, 1.81)
-print(pessoa1.nome)
-print(pessoa1.idade)
-print(pessoa1.peso)
-print(pessoa1.altura)
+pessoa2 = Pessoa('Maya', 4, 35, 1.42)
+print(f'\n===== PESSOA 01 =====\nNome: {pessoa1.nome}\nIdade: {pessoa1.idade}\nPeso: {pessoa1.peso}\nAltura: {pessoa1.altura}')
+print(f'\n\033[33m===== PESSOA 02 =====\nNome: {pessoa2.nome}\nIdade: {pessoa2.idade}\nPeso: {pessoa2.peso}\nAltura: {pessoa2.altura}\033[0m')
 
+print(f'\n\033[32m===== ENVELHECER 2 anos =====\033[0m')
 pessoa1.envelhecer(2)
-print(pessoa1.idade)
-print(pessoa1.altura)
+pessoa2.envelhecer(2)
+
+print(f'\n===== PESSOA 01 =====\nNome: {pessoa1.nome}\nIdade: {pessoa1.idade}\nPeso: {pessoa1.peso}\nAltura: {pessoa1.altura}')
+print(f'\n\033[33m===== PESSOA 02 =====\nNome: {pessoa2.nome}\nIdade: {pessoa2.idade}\nPeso: {pessoa2.peso}\nAltura: {pessoa2.altura}\033[0m')
+
 
 
             
