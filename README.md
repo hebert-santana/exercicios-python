@@ -1,4 +1,4 @@
-# Exercícios de Lógica de Programação em Python - [PythonBrasil](https://wiki.python.org.br/ListaDeExercicios)
+# Lógica de Programação em Python - [PythonBrasil](https://wiki.python.org.br/ListaDeExercicios)
 
 Este repositório contém as minhas resoluções dos exercícios propostos pela comunidade da [Python Brasil](https://wiki.python.org.br/PythonBrasil) para treinamento de lógica de programação em Python.
 
