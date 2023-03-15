@@ -3,20 +3,19 @@
 
 # Loop para obter uma entrada do usuário
 while True:
-    num = input("Digite um número entre 0 e 15: ")
+    num = input("Digite um número entre 1 e 15: ")
     # Verifica se a entrada é um número
     if num.isnumeric():
         valor = int(num)        
         # Verifica se o valor está dentro do intervalo desejado
-        if valor >= 0 and valor < 16:
+        if valor > 0 and valor < 16:
             print(f'Número escolhido: {valor}')
             break
         else:
-            print("Valor Inválido!\nO valor deve estar entre 0 e 16.")
+            print("Valor Inválido!\nO valor deve estar entre 1 e 16.")
     else:
         print("A entrada deve ser um número inteiro. Tente novamente.")
-
-    
+  
 n = 0
 fatorial = 1
 
@@ -24,4 +23,4 @@ while n < valor:
     n = n + 1
     fatorial = fatorial * n
 
-print(f'Fatorial de {valor} = {fatorial}') 
+print(f'{valor}! = {fatorial}')

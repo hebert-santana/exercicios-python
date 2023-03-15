@@ -3,14 +3,16 @@
 
 num = int(input("Digite um número inteiro: "))
 
-lista_numeros = [i for i in range(1, num)]
+# criando uma lista com todos inteiros menores que num
+inteiros = [i for i in range(1, num)]
 lista_divisores = []
-
-for numeros in lista_numeros:
-    if num % numeros == 0:
-        lista_divisores.append(numeros)
+divisores_primo = [1, num]
+# verifica se na lista há algum divisor de num
+for n in inteiros:
+    if num % n == 0:
+        lista_divisores.append(n)
         
-if lista_divisores == []:
+if lista_divisores == divisores_primo:
     print(f'{num} é primo.')
 else:
     print(f'{num} não é primo.\nEle é divisível por: ')
