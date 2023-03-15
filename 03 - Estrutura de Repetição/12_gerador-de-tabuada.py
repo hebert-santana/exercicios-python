@@ -9,11 +9,11 @@
 # 5 X 10 = 50
 # ----------------------
 
-numero = int(input("De qual número (entre 1 e 10) será a tabuada? "))
-
-lista_numeros = list(range(1, 11))
-
-print(f'Tabuada do {numero}:')
-for num in lista_numeros:
-    resultado = numero * num
-    print(f'{numero} X {num} = {resultado}')
+while True:
+    numero = int(input("De qual número (entre 1 e 10) será a tabuada? "))
+    if numero > 0 and numero <= 10:
+        for i in range(1, 11):
+            resultado = numero * i
+            print(f'{numero} x {i} = {resultado}')
+        break
+    

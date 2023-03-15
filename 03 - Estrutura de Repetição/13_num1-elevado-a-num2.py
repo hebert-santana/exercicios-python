@@ -3,6 +3,5 @@
 
 num1 = float(input("Base: "))
 num2 = float(input("Expoente: "))
-
 resultado = num1 ** num2
 print(f'{num1} elevado a {num2} = {resultado}')

@@ -9,5 +9,4 @@ while n < num:
     n = n + 1
     fatorial = fatorial * n
 
-
 print(fatorial)  
