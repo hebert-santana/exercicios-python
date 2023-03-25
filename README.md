@@ -17,7 +17,7 @@ O objetivo deste repositório é documentar minha evolução na linguagem Python
 * [Exercícios com Listas](https://github.com/hebert-santana/exercicios-python-brasil/tree/main/04%20-%20Exerc%C3%ADcios%20com%20Listas) (06/24) ⌛
 * [Exercícios com Funções](https://github.com/hebert-santana/exercicios-python-brasil/tree/main/05%20-%20Exerc%C3%ADcios%20com%20Fun%C3%A7%C3%B5es) (03/14) ⌛
 * [Exercícios com Strings](https://github.com/hebert-santana/exercicios-python-brasil/tree/main/06%20-%20Exerc%C3%ADcios%20com%20Strings) (10/14) ⌛
-* Exercícios Arquivos (00/02) ⌛
+* [Exercícios Arquivos](https://github.com/hebert-santana/exercicios-python-brasil/tree/main/07%20-%20Exerc%C3%ADcios%20com%20Arquivos) (01/02) ⌛
 * [Exercícios Classes](https://github.com/hebert-santana/exercicios-python-brasil/tree/main/08%20-%20Exerc%C3%ADcios%20com%20Classes) (08/17) ⌛
 * Exercícios de Projetos (00/03) ⌛
 
