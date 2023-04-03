@@ -13,11 +13,11 @@ O objetivo deste repositório é documentar minha evolução na linguagem Python
 ### Pastas do Repositório
 * [Estrutura Sequencial](https://github.com/hebert-santana/exercicios-python-brasil/tree/main/01%20-%20Estrutura%20Sequencial) (18/18) ✅
 * [Estrutura de Decisão](https://github.com/hebert-santana/exercicios-python-brasil/tree/main/02%20-%20Estrutura%20de%20Decis%C3%A3o) (25/25) ✅
-* [Estrutura de Repetição](https://github.com/hebert-santana/exercicios-python-brasil/tree/main/03%20-%20Estrutura%20de%20Repeti%C3%A7%C3%A3o) (26/51)⌛
-* [Exercícios com Listas](https://github.com/hebert-santana/exercicios-python-brasil/tree/main/04%20-%20Exerc%C3%ADcios%20com%20Listas) (06/24) ⌛
+* [Estrutura de Repetição](https://github.com/hebert-santana/exercicios-python-brasil/tree/main/03%20-%20Estrutura%20de%20Repeti%C3%A7%C3%A3o) (28/51)⌛
+* [Exercícios com Listas](https://github.com/hebert-santana/exercicios-python-brasil/tree/main/04%20-%20Exerc%C3%ADcios%20com%20Listas) (15/24) ⌛
 * [Exercícios com Funções](https://github.com/hebert-santana/exercicios-python-brasil/tree/main/05%20-%20Exerc%C3%ADcios%20com%20Fun%C3%A7%C3%B5es) (03/14) ⌛
 * [Exercícios com Strings](https://github.com/hebert-santana/exercicios-python-brasil/tree/main/06%20-%20Exerc%C3%ADcios%20com%20Strings) (14/14) ✅
-* [Exercícios Arquivos](https://github.com/hebert-santana/exercicios-python-brasil/tree/main/07%20-%20Exerc%C3%ADcios%20com%20Arquivos) (01/02) ⌛
+* [Exercícios Arquivos](https://github.com/hebert-santana/exercicios-python-brasil/tree/main/07%20-%20Exerc%C3%ADcios%20com%20Arquivos) (01/02) ✅
 * [Exercícios Classes](https://github.com/hebert-santana/exercicios-python-brasil/tree/main/08%20-%20Exerc%C3%ADcios%20com%20Classes) (08/17) ⌛
 * Exercícios de Projetos (00/03) ⌛
 
